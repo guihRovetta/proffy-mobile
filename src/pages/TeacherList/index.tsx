@@ -11,7 +11,10 @@ function TeacherList() {
     <View style={styles.container}>
       <PageHeader title="Proffys disponíveis" />
 
-      <ScrollView>
+      <ScrollView
+        style={styles.teacherList}
+        contentContainerStyle={{ paddingHorizontal: 16, paddingBottom: 16 }}
+      >
         <TeacherItem />
         <TeacherItem />
         <TeacherItem />
