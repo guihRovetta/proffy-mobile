@@ -14,6 +14,7 @@ import styles from './styles';
 
 function Landing() {
   const { navigate } = useNavigation();
+
   const [totalConnections, setTotalConnections] = useState(0);
 
   useEffect(() => {
